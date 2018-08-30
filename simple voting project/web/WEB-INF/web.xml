@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>HexCode</servlet-name>
+        <servlet-class>HexCode</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Aadhar</servlet-name>
+        <servlet-class>Aadhar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Voter</servlet-name>
+        <servlet-class>Voter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Vote</servlet-name>
+        <servlet-class>Vote</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HexCode</servlet-name>
+        <url-pattern>/HexCode</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Aadhar</servlet-name>
+        <url-pattern>/Aadhar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Voter</servlet-name>
+        <url-pattern>/Voter</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Vote</servlet-name>
+        <url-pattern>/Vote</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

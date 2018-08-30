@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-May-2018, 22:36:36
+    Author     : Love
+*/
+
+body{
+	margin-top: 0px;
+	padding-top: 0px;
+	 background: url(images/5.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: Apple Chancery, cursive;
+	font-size: 30px;
+        color:brown;
+        
+}
+.rules{
+   color:black;
+    font-style:italic;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 01);
+    
+}
+.im{
+    color:green;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 40px;
+  
+}
+.regbutton{
+    color:greenyellow;
+    width:250px;
+}

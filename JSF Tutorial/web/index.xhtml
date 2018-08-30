@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      >
+  <h:head>  
+<title>User Registration Form</title>  
+</h:head>  
+<h:body>  
+<h:form>  
+    <h:outputLabel for="txtname"> 
+        <h:outputText value="Enter Product Name:"/>
+    </h:outputLabel>
+    <h:inputText id="txtname" value="#{obj.name}"/>
+    
+    
+        <h:outputLabel for="txtquantity"> 
+        <h:outputText value="Enter Quantity:"/>
+    </h:outputLabel>
+    <h:inputText id="txtquantity" value="#{obj.quantity}"/>
+    
+    
+        <h:outputLabel for="txtprice"> 
+        <h:outputText value="Enter Price:"/>
+    </h:outputLabel>
+    <h:inputText id="txtprice" value="#{obj.price}"/>
+        
+        
+    <h:commandButton id="cmdinsert" value="add item" action="#{obj.add}"></h:commandButton>  
+</h:form>  
+</h:body>  
+</html>
